@@ -1,0 +1,85 @@
+.container {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px
+}
+
+.title-app {
+  text-align: center;
+  margin: 0 0 30px
+}
+
+.container-form-user {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-name {
+  width: 85%
+}
+
+.button-add-user {
+  height: 55px;
+  background-color: black
+}
+
+.icon-button-add-user {
+  color: white;
+
+  ol {
+    padding: 0 40px;
+
+    li{
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0
+    }
+  }
+}
+
+.container-button-generate-team {
+  margin: auto;
+  width: 100%
+}
+
+.buttonGeneratorTeam {
+  width: 100%;
+  border-radius: 5px;
+  background: black;
+}
+
+.title-team {
+  margin: 0;
+  text-align: center;
+  padding: 5px 0 7px;
+  border-bottom: 1px solid black;
+  background-color: #e0e2ec;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.col:nth-child(even) {
+  margin-right: 0;
+}
+
+.container-team {
+  display: flex;
+  justify-content: space-around
+}
+
+.name-user {
+  margin: 5px 0
+}
